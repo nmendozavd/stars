@@ -1,12 +1,9 @@
-
-def stars(list):
+def draw_stars(list):
     for x in list:
         print "*" * x
+x = [4,6,1,3,5,7,25]
 
-
-nums = [6,2,5,7,9]
-stars(nums)
-
+draw_stars(x)
 
 def stars2(list):
     for x in list:
@@ -16,5 +13,5 @@ def stars2(list):
             length = len(x)
             letter = x[0].lower()
             print letter * length
-x = [4, "Tom", 1, "Michael", 5, 7, "Jimmy Smith"]
+x = [4, "Tom", 1, "Michael", 5,7, "Jimmy Smith"]
 stars2(x)
